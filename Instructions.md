@@ -1,23 +1,47 @@
-Step1:
-Search for Advanced system settings in windows search and then click on "View Advanced System Settings"
+<b>Step1:</b>
+<br>Search for Advanced system settings in windows search and then click on "View Advanced System Settings"</br>
 
-Step2: 
-Select "Environment Variables..." option.
 
-Step3:
-Note down the username, select "Path" variable and then click on "Edit..." button
+<p align="left">
+  <img width="489" height="776" src="https://github.com/VVRChilukoori/Environment-variables-setup-for-Anaconda-in-windows10/blob/master/img/Advanced_system_settings.JPG.jpg">
+</p>
 
-Step4: 
-Then click on "New" button and add the following paths to it. 
 
-Path codes:
+<b>Step2:</b> 
+<br>Select "Environment Variables..." option.</br>
 
-C:\Users\"USERNAME"\Anaconda3
-C:\Users\"USERNAME"\Anaconda3\Library\mingw-w64\bin
-C:\Users\"USERNAME"\Anaconda3\Library\usr\bin
-C:\Users\"USERNAME"\Anaconda3\Library\bin
-C:\Users\"USERNAME"\Anaconda3\Scripts
+<p align= "left">
+  <img width="547" height ="554" src="https://github.com/VVRChilukoori/Environment-variables-setup-for-Anaconda-in-windows10/blob/master/img/Environment_variables.jpg">
+</p>
 
-Note: Replace the "USERNAME" with the username of yours in your system.
+
+<b>Step3:</b>
+<br>Note down the username, select "Path" variable and then click on "Edit..." button</br>
+
+<p align= "left">
+  <img width="749" height ="792" src="https://github.com/VVRChilukoori/Environment-variables-setup-for-Anaconda-in-windows10/blob/master/img/path.jpg">
+</p>
+
+
+<b>Step4:</b> 
+<br>Then click on "New" button and add the following paths to it. </br>
+
+<p align= "left">
+  <img width="749" height ="788.5" src="https://github.com/VVRChilukoori/Environment-variables-setup-for-Anaconda-in-windows10/blob/master/img/Variables_for_anaconda.JPG">
+</p>
+
+
+
+<p>
+<b>Path codes</b>
+<br>C:\Users\"USERNAME"\Anaconda3</br>
+<br>C:\Users\"USERNAME"\Anaconda3\Library\mingw-w64\bin</br>
+<br>C:\Users\"USERNAME"\Anaconda3\Library\usr\bin</br>
+<br>C:\Users\"USERNAME"\Anaconda3\Library\bin</br>
+<br>C:\Users\"USERNAME"\Anaconda3\Scripts</br>
+</p>
+
+
+<b>Note:</b> Replace the "USERNAME" with the username of yours in your system.
 
 Then you can go to the windows command prompt / Windows power shell and type python/ jupyter notebook. They should work now.
